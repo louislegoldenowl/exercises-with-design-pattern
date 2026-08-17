@@ -141,3 +141,16 @@ console.log(`${fullTimeEmployee.name}'s salary is ${fullTimeEmployee.calculateSa
 const internEmployee = new InternEmployee("Bob");
 console.log(`${internEmployee.name}'s salary is ${internEmployee.calculateSalary()}`);
 /*=========== END PRACTICE 2 ===============*/
+
+export {
+    AreaCalculator,
+    Circle,
+    Rectangle,
+    Triangle,
+    Square,
+    EmployeeType,
+    FullTimeEmployee,
+    PartTimeEmployee,
+    InternEmployee,
+    FreelancerEmployee
+}
